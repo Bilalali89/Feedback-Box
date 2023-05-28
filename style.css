@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.mt-80 {
+	margin-top: 80px;
+}
+
+.mt-60 {
+	margin-top: 60px;
+}
+
+.f-box {
+	border: 3px solid #e5dfd5;
+	box-shadow: 0 0 20px 0 rgba(50, 50, 50, 0.2);
+}
+
+.heading-1 {
+	font-size: 1.3rem;
+	font-weight: 700;
+	line-height: 20px;
+	color: #8d7249;
+}
+
+.h-sub {
+	font-size: 0.9rem;
+	font-weight: 500;
+	font-style: italic;
+	color: #454552;
+	padding-bottom: 10px;
+}
+
+.text-sec {
+
+	background-color: #9D8F5C;
+	color: white !important;
+	cursor: pointer;
+}
+
+.video-sec {
+
+	background-color: #337ab7;
+	color: white !important;
+	cursor: pointer;
+}
+
+.audio-sec {
+
+	background-color: #454545;
+	color: white !important;
+	cursor: pointer;
+}
+
+.bg-pattern {
+	background: url('images/branding-bg.png') left repeat-x;
+}
+
+.my-btn {
+    margin: 30%
+}
+
+.example-block {
+    transition: background 0.4s ease-out;
+    position: relative;
+    display: inline-block;
+    height: auto
+}
+
+.example-block:hover {
+    cursor: pointer;
+    animation: levitate 1s ease-in-out infinite
+}
+
+@keyframes levitate {
+    0% {
+        transform: translate(0, 0px)
+    }
+
+    50% {
+        transform: translate(0, -9px)
+    }
+
+    100% {
+        transform: translate(0, 0px)
+    }
+}
+
+.example-block .image {
+    transition: ease-in-out, transform 0.4s ease-in- out
+}
+
+.example-block:hover .image {
+    transform: scale(1.8)
+}
+
+.input-hidden {
+    position: absolute;
+    left: -9999px
+}
+
+input[type=radio]:checked+label>img {
+    animation: levitate 0.5s ease-in-out infinite;
+    transform: scale(2.0)
+}
+
+input[type=radio]+label>img {
+    transition: 500ms all
+}
+
+.modal-footer {
+    background-color: rgb(238, 238, 238)
+}
+
+@media (max-width: 400px) {
+    img {
+        width: auto;
+        height: auto
+    }
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none !important;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; 
+}
+
+.form-control:focus {
+	border-color: none !important;
+}
+
+
+.btn-submit {
+	padding: 10px 80px;
+	font-size: 1rem;
+}
